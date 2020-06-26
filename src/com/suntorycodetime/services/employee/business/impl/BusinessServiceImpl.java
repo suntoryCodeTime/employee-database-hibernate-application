@@ -1,8 +1,8 @@
-package com.suntorycodetime.services.business.impl;
+package com.suntorycodetime.services.employee.business.impl;
 
 import java.util.List;
 
-import com.suntorycodetime.services.business.BusinessService;
+import com.suntorycodetime.services.employee.business.BusinessService;
 import com.suntorycodetime.services.employee.data.DAO;
 import com.suntorycodetime.services.employee.data.entity.Employee;
 

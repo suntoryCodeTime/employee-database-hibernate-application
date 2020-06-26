@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.suntorycodetime.services.business.BusinessService;
+import com.suntorycodetime.services.employee.business.BusinessService;
 import com.suntorycodetime.services.employee.config.EmployeeServiceConfig;
 import com.suntorycodetime.services.employee.data.entity.Employee;
 import com.suntorycodetime.services.employee.data.entity.EmployeeBuilder;

@@ -4,8 +4,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
-import com.suntorycodetime.services.business.BusinessService;
-import com.suntorycodetime.services.business.impl.BusinessServiceImpl;
+import com.suntorycodetime.services.employee.business.BusinessService;
+import com.suntorycodetime.services.employee.business.impl.BusinessServiceImpl;
 import com.suntorycodetime.services.employee.data.DAO;
 import com.suntorycodetime.services.employee.data.impl.HibernateDAO;
 
