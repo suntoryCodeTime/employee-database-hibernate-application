@@ -1,5 +1,7 @@
 package com.suntorycodetime.services.business.impl;
 
+import java.util.List;
+
 import com.suntorycodetime.services.business.BusinessService;
 import com.suntorycodetime.services.employee.data.DAO;
 import com.suntorycodetime.services.employee.data.entity.Employee;
@@ -20,14 +22,18 @@ public class BusinessServiceImpl implements BusinessService {
 
 	@Override
 	public void addEmployee(Employee employee) {
-		// TODO Auto-generated method stub
+		dao.addEmployee(employee);
 		
 	}
 
 	@Override
 	public void deleteEmployee(int id) {
-		// TODO Auto-generated method stub
-		
+		dao.deleteEmployee(id);
+	}
+
+	@Override
+	public List<Employee> getEmployees(String company) {
+		return dao.getEmployees(company);
 	}
 
 }
